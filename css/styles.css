@@ -1,29 +1,16 @@
-body {
+header:nth-child(1) {
+	padding: 2rem 0;
 }
-
-header {
-}
-
-img {
-	height: 15rem;
-	width: 15rem;
-}
-
-.jumbotron {
-}
-
-.row.col-md-4 {
-	height: 150px;
-	width: 150px;
-	line-height: 150px;
-	border: medium black;
-}
-
-.container-fluid {
+section:nth-child(3) {
 	background-color: lightgray;
-	padding-top: 5rem;
+	padding: 10rem 0;
 }
-
+section:nth-child(4) {
+	padding: 10rem 0;
+}
+section:nth-child(4) col-md-3{
+	padding: 10rem 0;
+}
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
@@ -44,7 +31,6 @@ body { width: 100%;}
 }
 footer {
 	background-color: black;
-	padding: 20px;
-	display: block;
-	text-align: center;
+	color: white;
+	padding: 1rem 0;
 }
