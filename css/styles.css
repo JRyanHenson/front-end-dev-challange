@@ -5,10 +5,25 @@ header {
 }
 
 img {
+	height: 15rem;
+	width: 15rem;
 }
 
-.row	{
+.jumbotron {
 }
+
+.row.col-md-4 {
+	height: 150px;
+	width: 150px;
+	line-height: 150px;
+	border: medium black;
+}
+
+.container-fluid {
+	background-color: lightgray;
+	padding-top: 5rem;
+}
+
 /***
 * Flexbox Sticky Footer
 * http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
@@ -26,4 +41,10 @@ body { width: 100%;}
 
 .sfooter-content {
 	flex: 1 0 auto;
+}
+footer {
+	background-color: black;
+	padding: 20px;
+	display: block;
+	text-align: center;
 }
